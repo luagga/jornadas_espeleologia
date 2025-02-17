@@ -3,24 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ponencias</title>
+    <title>Ponencias y Talleres</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #5a3e1b;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .ponencia {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #ececec;
+            border-radius: 8px;
+            text-align: left;
+        }
+        .ponencia h2 {
+            color: #5a3e1b;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 5px;
+            background: #5a3e1b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background: #442d13;
+        }
+        .image {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Ponencias, Talleres y Exposiciones</h1>
+        <h1>Ponencias y Talleres</h1>
     </header>
     <nav>
-        <a href="index.html">Inicio</a>
+        <a href="index.html" class="button">Inicio</a>
+        <a href="ponencias.html" class="button">Volver a Ponencias</a>
     </nav>
-    <div>
-        <ul>
-            <li>Rafa Bermúdez: Espeleo Vs. Logia</li>
-            <li>Abén Aljama: Exploración</li>
-            <li>Ponencia sobre Alma</li>
-            <li>Edu y Protección de Sima Begoña</li>
-            <li>Exposición de fotografía: Manolo López Chicano</li>
-            <li>Génesis de las cavidades de la Subbética</li>
-        </ul>
+    <div class="container">
+        <div class="ponencia">
+            <h2>Rafa Bermúdez: Espeleo Vs. Logia</h2>
+            <p>Una charla sobre los mitos y realidades de la exploración subterránea.</p>
+            <img src="espeleo_vs_logia.jpg" class="image" alt="Espeleo Vs. Logia">
+        </div>
+
+        <div class="ponencia">
+            <h2>Abén Aljama: Exploración</h2>
+            <p>Un recorrido por las últimas expediciones y descubrimientos.</p>
+            <img src="exploracion.jpg" class="image" alt="Exploración">
+        </div>
+        
+        <div class="ponencia">
+            <h2>Ponencia sobre Alma</h2>
+            <p>Conoce el proyecto Alma y su impacto en la espeleología.</p>
+            <img src="alma.jpg" class="image" alt="Proyecto Alma">
+        </div>
+        
+        <div class="ponencia">
+            <h2>Edu y Protección de Sima Begoña</h2>
+            <p>Importancia de la conservación en la espeleología.</p>
+            <img src="sima_begona.jpg" class="image" alt="Sima Begoña">
+        </div>
+        
+        <div class="ponencia">
+            <h2>Exposición de fotografía: Manolo López Chicano</h2>
+            <p>Una muestra visual sobre la belleza de las cavernas.</p>
+            <img src="fotografia.jpg" class="image" alt="Fotografía Subterránea">
+        </div>
+        
+        <div class="ponencia">
+            <h2>Génesis de las cavidades de la Subbética</h2>
+            <p>Descubre cómo se formaron las cavidades más impresionantes.</p>
+            <img src="genesis_cavidades.jpg" class="image" alt="Génesis de Cavidades">
+        </div>
     </div>
 </body>
 </html>
